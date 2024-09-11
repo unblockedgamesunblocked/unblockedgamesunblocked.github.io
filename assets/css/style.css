@@ -398,9 +398,9 @@ li {
     top: 53%;
     -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
-    height: 32px;
+    height: 500px;
     height: 2rem;
-    width: 32px;
+    width: 500px;
     width: 2rem;
     background: url(../img/target23.png) no-repeat scroll 0 0/cover;
     border: 0px solid #252525;

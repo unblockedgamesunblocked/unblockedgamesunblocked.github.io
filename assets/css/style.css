@@ -71,7 +71,7 @@ This files contents are outlined below >>>>
 
 html {
     overflow-y: scroll !important;
-    scrollbar-color: #ff7a21 #0f0b12;
+    scrollbar-color: #42ba0e #0f0b12;
     scrollbar-width: thin;
     overflow-x: hidden
 }
@@ -85,8 +85,8 @@ body::-webkit-scrollbar-track {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #ff7a21;
-    outline: #ff7a21 solid 1px
+    background-color: #42ba0e;
+    outline: #42ba0e solid 1px
 }
 
 body {
@@ -250,15 +250,15 @@ li {
 }
 
 .fag-btn-outline:hover {
-    background: #ff7a21;
-    border-color: #ff7a21;
+    background: #42ba0e;
+    border-color: #42ba0e;
     color: #fff;
 }
 
 .fag-btn {
     padding: 10px 20px;
-    border: 2px solid #ff7a21;
-    background: #ff7a21 none repeat scroll 0 0;
+    border: 2px solid #42ba0e;
+    background: #42ba0e none repeat scroll 0 0;
     font-size: 20px;
     color: #FFF;
     text-transform: uppercase;
@@ -270,7 +270,7 @@ li {
 
 .fag-btn:hover {
     background: transparent;
-    border-color: #ff7a21;
+    border-color: #42ba0e;
     color: #fff;
 }
 
@@ -301,7 +301,7 @@ li {
     position: absolute;
     content: "";
     width: 0px;
-    border-color: #ff7a21 transparent !important;
+    border-color: #42ba0e transparent !important;
     margin: 10px 0;
     border-style: solid !important;
     border-width: 4px 7px 0px 7px !important;
@@ -318,7 +318,7 @@ li {
 }
 
 .site-heading h2 span {
-    color: #ff7a21
+    color: #42ba0e
 }
 
 .site-heading p {
@@ -524,7 +524,7 @@ li {
 
 .pagination li.active a,
 .pagination li a:hover {
-    background: #ff7a21 none repeat scroll 0 0;
+    background: #42ba0e none repeat scroll 0 0;
     color: #fff
 }
 
@@ -570,7 +570,7 @@ li {
 }
 
 .breadcromb-box li i {
-    color: #ff7a21
+    color: #42ba0e
 }
 
 
@@ -709,7 +709,7 @@ li {
     height: 20px;
     border-radius: 50%;
     margin-right: 10px;
-    border: 1px solid #ff7a21;
+    border: 1px solid #42ba0e;
 }
 
 .header-cart img {
@@ -1156,7 +1156,7 @@ span.is-active {
     font-size: 32px;
     font-weight: 600;
     line-height: 45px;
-    color: #ff7a21;
+    color: #42ba0e;
     text-transform: capitalize;
 }
 
@@ -1189,7 +1189,7 @@ span.is-active {
 
 .slider-text a.fag-btn-outline:hover span {
     background: #fff;
-    color: #ff7a21;
+    color: #42ba0e;
 }
 
 
@@ -1232,7 +1232,7 @@ span.is-active {
 }
 
 .fag-video-inn:hover .play-video {
-    background: #ff7a21;
+    background: #42ba0e;
     -webkit-transform: translate(-50%, -50%) scale(1.1);
             transform: translate(-50%, -50%) scale(1.1);
 }
@@ -1343,13 +1343,13 @@ span.is-active {
     z-index: -1;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
-    background: #ff7a21 none repeat scroll 0 0;
+    background: #42ba0e none repeat scroll 0 0;
     -webkit-transform: skew(-40deg);
     transform: skew(-40deg);
 }
 
 .projectFilter li a:hover:after {
-    background: #ff7a21 none repeat scroll 0 0;
+    background: #42ba0e none repeat scroll 0 0;
     -webkit-transform: skew(-40deg);
     transform: skew(-40deg);
 }
@@ -1422,7 +1422,7 @@ span.is-active {
     left: 50%;
     z-index: 2;
     font-size: 35px;
-    color: #ff7a21;
+    color: #42ba0e;
     -webkit-transition: 0.4s ease;
     transition: 0.4s ease;
     -webkit-transform: translate(-50%, -50%) scale(0);
@@ -1443,7 +1443,7 @@ span.is-active {
     top: 0;
     width: 100%;
     height: 3px;
-    background-color: #ff7a21;
+    background-color: #42ba0e;
     left: 0;
     border-radius: 0;
     -webkit-transform: scale(0);
@@ -1561,7 +1561,7 @@ span.is-active {
 }
 
 .game-action a.fag-btn-outline:hover {
-    border: 1px solid #ff7a21
+    border: 1px solid #42ba0e
 }
 
 /*================================================
@@ -1632,7 +1632,7 @@ span.is-active {
     text-align: center;
     width: 100%;
     font-family: 'Rajdhani', sans-serif;
-    color: #ff7a21;
+    color: #42ba0e;
 }
 
 .matchcountdown li:after {
@@ -1662,7 +1662,7 @@ span.is-active {
 }
 
 .match-action a:hover {
-    background: #ff7a21 none repeat scroll 0 0
+    background: #42ba0e none repeat scroll 0 0
 }
 
 /*================================================
@@ -1763,7 +1763,7 @@ span.is-active {
     border-radius: 50%;
     font-size: 15px;
     background: url(../img/social_bg_hover.png);
-    color: #ff7a21;
+    color: #42ba0e;
 
 }
 
@@ -1886,7 +1886,7 @@ span.is-active {
 }
 
 .blog-image:hover .play-video {
-    background: #ff7a21;
+    background: #42ba0e;
     -webkit-transform: translate(-50%, -50%) scale(1.1);
             transform: translate(-50%, -50%) scale(1.1);
 }
@@ -1896,7 +1896,7 @@ span.is-active {
 }
 
 .blog-cat a {
-    background: #ff7a21 none repeat scroll 0 0;
+    background: #42ba0e none repeat scroll 0 0;
     color: #fff;
     text-transform: capitalize;
     font-family: 'Rajdhani', sans-serif;
@@ -1917,7 +1917,7 @@ span.is-active {
 }
 
 .blog-text h3 a:hover {
-    color: #ff7a21
+    color: #42ba0e
 }
 
 .post-info {
@@ -1940,7 +1940,7 @@ span.is-active {
 }
 
 .post-info li a span {
-    color: #ff7a21;
+    color: #42ba0e;
     margin-right: 5px
 }
 
@@ -1999,7 +1999,7 @@ span.is-active {
 }
 
 .load_more a:hover {
-    background: #ff7a21 none repeat scroll 0 0
+    background: #42ba0e none repeat scroll 0 0
 }
 
 .fag-news-page-area {
@@ -2076,7 +2076,7 @@ span.is-active {
 
 .single-footer ul li a span {
     margin-right: 5px;
-    color: #ff7a21
+    color: #42ba0e
 }
 
 .footer-contact {
@@ -2086,7 +2086,7 @@ span.is-active {
 .footer-contact h4 i {
     width: 25px;
     font-size: 16px;
-    color: #ff7a21;
+    color: #42ba0e;
 }
 
 .footer-contact h4 {
@@ -2126,7 +2126,7 @@ span.is-active {
     border-radius: 50%;
     font-size: 15px;
     background: url(../img/social_bg_hover.png);
-    color: #ff7a21;
+    color: #42ba0e;
 }
 
 .footer-bottom-inn ul li a:hover {
@@ -2163,7 +2163,7 @@ span.is-active {
 }
 
 .about-top h2 span {
-    color: #ff7a21;
+    color: #42ba0e;
     display: block
 }
 
@@ -2197,7 +2197,7 @@ span.is-active {
     position: relative;
     -webkit-transition: all 850ms ease;
     transition: all 850ms ease;
-    color: #ff7a21;
+    color: #42ba0e;
     font-size: 44px;
 }
 
@@ -2205,7 +2205,7 @@ span.is-active {
     position: absolute;
     content: "";
     width: 0px;
-    border-color: #ff7a21 transparent !important;
+    border-color: #42ba0e transparent !important;
     margin: 10px 0;
     border-style: solid !important;
     border-width: 3px 7px 0px 7px !important;
@@ -2290,7 +2290,7 @@ span.is-active {
 }
 
 .testimonial-title p {
-    color: #ff7a21;
+    color: #42ba0e;
     margin: 0
 }
 
@@ -2329,7 +2329,7 @@ span.is-active {
     width: 40px;
     height: 40px;
     font-size: 22px !important;
-    background: #ff7a21 none repeat scroll 0 0 !important;
+    background: #42ba0e none repeat scroll 0 0 !important;
     color: #fff !important;
     border-radius: 50%;
     right: -20px;
@@ -2352,7 +2352,7 @@ span.is-active {
 
 .testimonial-slider .owl-next:hover,
 .testimonial-slider .owl-prev:hover {
-    background: #ff7a21 none repeat scroll 0 0 !important;
+    background: #42ba0e none repeat scroll 0 0 !important;
 }
 
 .fag-sponsor-area {
@@ -2415,7 +2415,7 @@ span.is-active {
 
 .filter_title button {
     font-size: 14px;
-    color: #ff7a21;
+    color: #42ba0e;
     background: transparent;
     border: medium none;
     cursor: pointer;
@@ -2565,7 +2565,7 @@ span.is-active {
 }
 
 .noUi-connect {
-    background-color: #ff7a21;
+    background-color: #42ba0e;
 }
 
 .noUi-handle:before,
@@ -2578,7 +2578,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
 }
 
 .noUi-handle.noUi-handle-lower {
-    background-color: #ff7a21;
+    background-color: #42ba0e;
     box-shadow: none;
 }
 
@@ -2594,7 +2594,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
 }
 
 .noUi-handle.noUi-handle-upper {
-    background-color: #ff7a21;
+    background-color: #42ba0e;
     box-shadow: none;
 }
 
@@ -2657,7 +2657,7 @@ html:not([dir="rtl"]) .noUi-horizontal .noUi-handle {
     content: "\f00c";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    color: #ff7a21;
+    color: #42ba0e;
     font-size: 13px;
     top: 50%;
     left: 50%;
@@ -2679,7 +2679,7 @@ button.fag-btn {
 }
 
 button.fag-btn:hover {
-    background: #ff7a21 none repeat scroll 0 0;
+    background: #42ba0e none repeat scroll 0 0;
 }
 
 .games-category .games-single-item {
@@ -2726,7 +2726,7 @@ button.fag-btn:hover {
     right: 2px;
     height: 100%;
     width: 16%;
-    background: #ff7a21;
+    background: #42ba0e;
     color: #fff;
     border-radius: 50%;
     border: 3px solid #0d0e1b;
@@ -2751,7 +2751,7 @@ button.fag-btn:hover {
 }
 
 .categories li a i {
-    color: #ff7a21;
+    color: #42ba0e;
     margin-right: 5px
 }
 
@@ -3120,7 +3120,7 @@ button.fag-btn:hover {
 }
 
 .details-banner-action a.fag-btn:hover {
-    background: #ff7a21 none repeat scroll 0 0
+    background: #42ba0e none repeat scroll 0 0
 }
 
 .single_game_price {
@@ -3158,7 +3158,7 @@ button.fag-btn:hover {
     left: 0;
     width: 5px;
     height: 5px;
-    background: #ff7a21;
+    background: #42ba0e;
     border-radius: 50%;
     -webkit-transform: translate(0, -50%);
             transform: translate(0, -50%);
@@ -3195,7 +3195,7 @@ button.fag-btn:hover {
     content: '';
     -webkit-transition: all .25s ease-in-out;
     transition: all .25s ease-in-out;
-    background: #ff7a21;
+    background: #42ba0e;
 }
 
 .tv-panel-list .nav-pills .nav-link {
@@ -3204,7 +3204,7 @@ button.fag-btn:hover {
 
 .tv-panel-list .nav-pills .nav-link.active,
 .tv-panel-list .nav-pills .show > .nav-link {
-    color: #ff7a21 !important;
+    color: #42ba0e !important;
     background-color: transparent;
     position: relative;
 }
@@ -3217,12 +3217,12 @@ button.fag-btn:hover {
     left: 0;
     display: block;
     width: 100%;
-    color: #ff7a21;
+    color: #42ba0e;
     height: 2px;
     content: '';
     -webkit-transition: all .25s ease-in-out;
     transition: all .25s ease-in-out;
-    background: #ff7a21;
+    background: #42ba0e;
 }
 
 .tv-panel-list #pills-tab {
@@ -3426,7 +3426,7 @@ button.fag-btn:hover {
 }
 
 .match-list-heading h3 span {
-    color: #ff7a21
+    color: #42ba0e
 }
 
 .single-match-list {
@@ -3491,7 +3491,7 @@ button.fag-btn:hover {
 }
 
 .match-box-action a.fag-btn:hover {
-    background: #ff7a21 none repeat scroll 0 0
+    background: #42ba0e none repeat scroll 0 0
 }
 
 .single-match-widget {
@@ -3516,7 +3516,7 @@ button.fag-btn:hover {
 }
 
 .single-match-widget h4 span {
-    color: #ff7a21
+    color: #42ba0e
 }
 
 .single-match-widget .table-striped > tbody > tr:nth-of-type(2n+1) {
@@ -3583,7 +3583,7 @@ button.fag-btn:hover {
 .match-details-block blockquote {
     margin: 20px 0;
     padding: 15px;
-    border-left: 4px solid #ff7a21;
+    border-left: 4px solid #42ba0e;
     color: #c4c4c4;
     font-style: italic;
 }
@@ -3913,7 +3913,7 @@ button.fag-btn:hover {
 }
 
 .login-wrapper form > .form-row > button {
-    background-color: #ff7a21;
+    background-color: #42ba0e;
 }
 
 .login-wrapper form > .form-row > button:hover {
@@ -3941,7 +3941,7 @@ button.fag-btn:hover {
 .blog-details blockquote {
     margin: 20px 0;
     padding: 15px;
-    border-left: 4px solid #ff7a21;
+    border-left: 4px solid #42ba0e;
     color: #c4c4c4;
     font-style: italic;
 }
@@ -3981,7 +3981,7 @@ button.fag-btn:hover {
 }
 
 .products-grid .games-desc h3 a:hover {
-    color: #ff7a21
+    color: #42ba0e
 }
 
 .products-grid .games-thumb-image:before {
@@ -4060,7 +4060,7 @@ button.fag-btn:hover {
 }
 
 .single-shop-price p span {
-    color: #ff7a21;
+    color: #42ba0e;
     margin-left: 10px;
 }
 
@@ -4167,7 +4167,7 @@ button.fag-btn:hover {
     border-radius: 50%;
     font-size: 15px;
     background: url(../img/social_bg_dark.png);
-    color: #ff7a21;
+    color: #42ba0e;
 }
 
 .single-shop-page-btn ul li a:hover {
@@ -4195,12 +4195,12 @@ button.fag-btn:hover {
     left: 0;
     display: block;
     width: 100%;
-    color: #ff7a21;
+    color: #42ba0e;
     height: 2px;
     content: '';
     -webkit-transition: all .25s ease-in-out;
     transition: all .25s ease-in-out;
-    background: #ff7a21;
+    background: #42ba0e;
 }
 
 .product-panel-list .nav-link:after {
@@ -4214,12 +4214,12 @@ button.fag-btn:hover {
     content: '';
     -webkit-transition: all .25s ease-in-out;
     transition: all .25s ease-in-out;
-    background: #ff7a21;
+    background: #42ba0e;
 }
 
 .product-panel-list .nav-pills .nav-link.active,
 .product-panel-list .nav-pills .show > .nav-link {
-    color: #ff7a21 !important;
+    color: #42ba0e !important;
     background-color: transparent;
     position: relative;
 }
@@ -4348,13 +4348,13 @@ button.fag-btn:hover {
 }
 
 .cart-clear a:hover {
-    color: #ff7a21
+    color: #42ba0e
 }
 
 .fag-cart-close a:hover {
-    background: #ff7a21 none repeat scroll 0 0;
+    background: #42ba0e none repeat scroll 0 0;
     color: #fff;
-    border: 1px solid #ff7a21
+    border: 1px solid #42ba0e
 }
 
 .summury-inn {
@@ -4395,7 +4395,7 @@ button.fag-btn:hover {
 
 .checkout-action a.fag-btn:hover {
     color: #fff;
-    background: #ff7a21 none repeat scroll 0 0
+    background: #42ba0e none repeat scroll 0 0
 }
 
 .cart_box,
@@ -4583,15 +4583,15 @@ button.fag-btn:hover {
 }
 
 input[type="radio"]:checked ~ .check {
-    border: 3px solid #ff7a21;
+    border: 3px solid #42ba0e;
 }
 
 input[type="radio"]:checked ~ .check:before {
-    background: #ff7a21;
+    background: #42ba0e;
 }
 
 input[type="radio"]:checked ~ label {
-    color: #ff7a21;
+    color: #42ba0e;
 }
 
 .payment img {
@@ -4625,7 +4625,7 @@ input[type="radio"]:checked ~ label {
 }
 .contact-icon {
 	font-size: 24px;
-	color: #ff7a21;
+	color: #42ba0e;
 }
 .contact-head h4 {
 	color: #fff;

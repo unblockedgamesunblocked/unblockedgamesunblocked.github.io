@@ -661,98 +661,15 @@
     </section>
     <!-- Games Area End -->
     <!-- Footer Area Start -->
-    <footer class="fag-footer">
-        <div class="footer-top-area">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-12">
-                        <div class="single-footer">
-                            <h3>About us</h3>
-                            <p>Moreover, they ban certain gaming websites and utilize internet filters to restrict others. <br>All gaming sites are blocked by these filters.<br>
-                                Even though it takes a long time, <br>some gaming websites will get unblocked since it is difficult to prohibit every website on the internet, <br>
-                                and because <a href="https://unblockedgamesunblocked.github.io">Unblocked Games UnblockedE</a> websites are less likely to be blocked.</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 col-md-6 col-sm-12">
-                        <div class="widget-content">
-                            <div class="row clearfix">
-                                <div class=" col-lg-6 col-md-6 col-sm-12">
-                                    <div class="single-footer">
-                                        <h3>Our Categories</h3>
-                                        <ul>
-                                            <li><a href="action/index.html"><span class="fa fa-caret-right"></span>Action</a></li>
-                                            <li><a href="adventure/index.html"><span class="fa fa-caret-right"></span>Adventure</a></li>
-                                            <li><a href="bike/index.html"><span class="fa fa-caret-right"></span>Bike</a></li>
-                                            <li><a href="car/index.html"><span class="fa fa-caret-right"></span>Car</a></li>
-                                            <li><a href="idle/index.html"><span class="fa fa-caret-right"></span>Idle</a></li>
-                                            <li><a href="shooting/index.html"><span class="fa fa-caret-right"></span>Shooting</a></li>
-                                            <li><a href="skill/index.html"><span class="fa fa-caret-right"></span>Skill</a></li>
-                                            <li><a href="sport/index.html"><span class="fa fa-caret-right"></span>Sport</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class=" col-lg-6 col-md-6 col-sm-12">
-                                    <div class="single-footer">
-                                        <h3>Explore</h3>
-                                        <ul>
-                                            <li><a href="about.html"><span class="fa fa-caret-right"></span>About</a></li>
-                                            <li><a href=""><span class="fa fa-caret-right"></span>Our Games</a></li>
-                                            <li><a href="contact.html"><span class="fa fa-caret-right"></span>Contact Us</a></li>
-                                            <li><a href="#"><span class="fa fa-caret-right"></span>Help & Support</a></li>
-                                            <li><a href="#"><span class="fa fa-caret-right"></span>Privacy Policy</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class=" col-lg-3 col-md-6 col-sm-12">
-                        <div class="single-footer">
-                            <h3>Contact Us</h3>
-                            <div class="footer-contact">
-                                <h4 class="title"><i class="fa fa-map-marker"></i>Address </h4>
-                                <p>88 Road, Broklyn Street<br>New York, USA</p>
-                            </div>
-                            <div class="footer-contact">
-                                <h4 class="title"><i class="fa fa-envelope"></i>Email Address</h4>
-                                <p>info@fafgames.com</p>
-                            </div>
-                            <div class="footer-contact">
-                                <h4 class="title"><i class="fa fa-phone"></i>Phone </h4>
-                                <p>777-1234-567</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-12">
-                        <div class="footer-bottom-inn">
-                            <div class="footer-logo">
-                                <a href="index.html">
-                                    <img src="assets/img/logo.png" alt="site logo" />
-                                </a>
-                            </div>
-                            <div class="footer-social">
-                                <ul>
-                                    <li><a href="#"><span class="fab fa-facebook-f"></span></a></li>
-                                    <li><a href="#"><span class="fab fa-instagram"></span></a></li>
-                                    <li><a href="#"><span class="fab fa-youtube"></span></a></li>
-                                    <li><a href="#"><span class="fab fa-twitter"></span></a></li>
-                                </ul>
-                            </div>
-                            <div class="copyright">
-                                <p>&copy; Copyrights 2024 Unblocked Games Unblocked - All Rights Reserved</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <div id="footer"></div>
+
+    <script>
+        fetch('footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer').innerHTML = data;
+            });
+    </script>
     <!-- Footer Area End -->
 
 

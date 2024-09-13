@@ -83,7 +83,7 @@
         padding: 10px 0
     }
     .navbar-brand img {
-        width: 30%;
+        width: 50px;
     }
     .dropdown-menu {
         display: none !important;
@@ -278,7 +278,7 @@
         padding: 10px 0
     }
     .navbar-brand img {
-        width: 75%;
+        width: 50px;
     }
     .dropdown-menu {
         display: none !important;
@@ -675,7 +675,7 @@
         padding: 10px 0
     }
     .navbar-brand img {
-        width: 75%;
+        width: 50px;
     }
     .dropdown-menu {
         display: none !important;

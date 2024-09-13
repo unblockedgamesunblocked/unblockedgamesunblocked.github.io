@@ -42,7 +42,7 @@
 
     <!-- Header Area Start -->
     <script>
-    fetch('header.html')
+    fetch('partials/header.html')
         .then(response => response.text())
         .then(data => {
             document.getElementById('header').innerHTML = data;
@@ -398,7 +398,7 @@
     <!-- Games Area End -->
     <!-- Footer Area Start -->
     <script>
-    fetch('footer.html')
+    fetch('partials/footer.html')
         .then(response => response.text())
         .then(data => {
             document.getElementById('footer').innerHTML = data;

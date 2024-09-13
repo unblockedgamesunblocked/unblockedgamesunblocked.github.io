@@ -368,26 +368,64 @@
            
            
           <!-- games Details Page Start -->
-        <!-- contest-details-section start -->
-        <section class="pb-120 mt-minus-300">
-          <div class="container">
-            <div class="row justify-content-center">
-              <div class="col-lg-12">
-                <div class="contest-details__slider-area">
-                  <div class="contest-details__thumb-slider">
-                    <div class="game-iframe-container" id="loadgame">
-                      <div class="talpa-splash-container" style="background: var(--color2);"><div class="talpa-splash-top"><div>
-                           <div style="--thumb:url(../assets/img/1v1.lol/logo.png);" alt="Stylish Crop Top Trends"></div>
-                           <button id="talpa-splash-button" class="SP-splash-button" onclick="loadMainGame()" style="display: block;">PLAY NOW</button>
-                           <div class="talpa-loader" style="display: none;">Loading...</div></div></div><div class="talpa-splash-bottom"></div>
-                      </div>
-                    </div>
-                </div>
-              </div>
-            </div><!-- row end -->
-          </div>
-        </section>
-        <!-- contest-details-section end  -->
+       <!-- Ad Container -->
+<div id="ad-container">
+    <p>Advertisement</p>
+    <div id="video-ad">
+        <!-- Placeholder for AdSense or any other video ad code -->
+        <video width="100%" height="100%" autoplay muted>
+            <source src="https://example.com/path-to-ad.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+
+<!-- Countdown Timer and Play Button -->
+<div id="countdown-message">Play the game in <span id="countdown-timer">5</span> seconds...</div>
+<button id="play-button" disabled>Play Now</button>
+
+<!-- Game Container (Initially Hidden) -->
+<div id="game-container">
+    <iframe id="game-area" src="https://webglmath.github.io/1v1-lol/" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<script>
+    // Countdown Timer
+    let timeLeft = 8; // Set the countdown time in seconds
+    let countdownTimer = document.getElementById('countdown-timer');
+    let playButton = document.getElementById('play-button');
+
+    // Update the countdown every second
+    let countdownInterval = setInterval(function() {
+        timeLeft--;
+        countdownTimer.textContent = timeLeft;
+
+        // Once countdown reaches 0, enable the play button
+        if (timeLeft <= 0) {
+            clearInterval(countdownInterval);
+            enablePlayButton();
+        }
+    }, 1000);
+
+    // Function to enable the "Play Now" button after the countdown
+    function enablePlayButton() {
+        playButton.disabled = false; // Enable the button
+        playButton.classList.add('enabled');
+        playButton.style.cursor = 'pointer'; // Change cursor to indicate it’s clickable
+        playButton.addEventListener('click', loadGame); // Add click event listener
+    }
+
+    // Function to load the game when the play button is clicked
+    function loadGame() {
+        // Hide the ad container and countdown
+        document.getElementById('ad-container').style.display = 'none';
+        document.getElementById('countdown-message').style.display = 'none';
+        playButton.style.display = 'none'; // Hide the play button after clicking
+
+        // Show the game container
+        document.getElementById('game-container').style.display = 'block';
+    }
+</script>
            
            
           <!-- Related Games Start -->

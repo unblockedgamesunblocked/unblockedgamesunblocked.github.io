@@ -369,6 +369,62 @@
            
           <!-- games Details Page Start -->
        <!-- Ad Container -->
+  <style>
+        /* Center and style ad and button */
+        #ad-container {
+            width: 100%;
+            max-width: 800px; /* Set a max width for the ad */
+            height: 400px;
+            background-color: #000;
+            margin: 20px auto; /* Center the ad container */
+            text-align: center;
+            padding: 10px; /* Add padding around the ad */
+            box-sizing: border-box; /* Ensure padding doesn’t overflow */
+        }
+        
+        #countdown-message {
+            font-size: 1.5rem;
+            color: black;
+            margin-top: 20px;
+            text-align: center; /* Center the countdown message */
+        }
+        
+        #play-button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1.5rem;
+            border: none;
+            cursor: not-allowed;
+            opacity: 0.6;
+            display: block;
+            margin-left: auto;
+            margin-right: auto; /* Center the button */
+        }
+        
+        #play-button.enabled {
+            cursor: pointer;
+            opacity: 1;
+        }
+
+        #game-container {
+            display: none;
+            width: 100%;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        /* Full-width game iframe */
+        iframe {
+            width: 100%; 
+            max-width: 800px; /* Limit the game width */
+            height: 600px; /* Adjust as needed */
+            border: none;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Ad Container -->
 <div id="ad-container">
     <p>Advertisement</p>
     <div id="video-ad">
@@ -382,7 +438,7 @@
 
 <!-- Countdown Timer and Play Button -->
 <div id="countdown-message">Play the game in <span id="countdown-timer">5</span> seconds...</div>
-<button id="play-button" disabled>Play Now</button>
+<button id="play-button" class="SP-splash-button" disabled>Play Now</button>
 
 <!-- Game Container (Initially Hidden) -->
 <div id="game-container">
@@ -391,8 +447,9 @@
 
 <script>
     // Countdown Timer
-    let timeLeft = 8; // Set the countdown time in seconds
+    let timeLeft = 5; // Set the countdown time in seconds
     let countdownTimer = document.getElementById('countdown-timer');
+    let countdownMessage = document.getElementById('countdown-message');
     let playButton = document.getElementById('play-button');
 
     // Update the countdown every second
@@ -400,7 +457,7 @@
         timeLeft--;
         countdownTimer.textContent = timeLeft;
 
-        // Once countdown reaches 0, enable the play button
+        // Once countdown reaches 0, stop the timer and load the game
         if (timeLeft <= 0) {
             clearInterval(countdownInterval);
             enablePlayButton();
@@ -415,17 +472,25 @@
         playButton.addEventListener('click', loadGame); // Add click event listener
     }
 
-    // Function to load the game when the play button is clicked
+    // Function to load the game when the play button is clicked or when countdown ends
     function loadGame() {
-        // Hide the ad container and countdown
+        // Hide ad, button, and countdown message
         document.getElementById('ad-container').style.display = 'none';
-        document.getElementById('countdown-message').style.display = 'none';
-        playButton.style.display = 'none'; // Hide the play button after clicking
+        countdownMessage.style.display = 'none';
+        playButton.style.display = 'none'; // Hide the play button
 
-        // Show the game container
+        // Show game container
         document.getElementById('game-container').style.display = 'block';
     }
+
+    // Auto load game when timer ends
+    setTimeout(() => {
+        loadGame(); // Auto load the game when the countdown ends
+    }, timeLeft * 1000); // timeLeft * 1000 to match the countdown time
 </script>
+
+</body>
+</html>
            
            
           <!-- Related Games Start -->

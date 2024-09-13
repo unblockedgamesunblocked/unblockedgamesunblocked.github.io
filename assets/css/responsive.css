@@ -84,6 +84,7 @@
     }
     .navbar-brand img {
         width: 50px;
+	    height: auto;
     }
     .dropdown-menu {
         display: none !important;
@@ -275,10 +276,11 @@
         padding-right: 0
     }
     .fag-header{
-        padding: 10px 0
+        padding: 20px 0
     }
     .navbar-brand img {
         width: 50px;
+	    height: auto;
     }
     .dropdown-menu {
         display: none !important;

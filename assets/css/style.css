@@ -2020,7 +2020,6 @@ span.is-active {
 ==================================================*/
 .fag-footer {
     position: relative;
-    background: url(../img/footer_bg.jpg) no-repeat fixed center center/cover;
     z-index: 1
 }
 

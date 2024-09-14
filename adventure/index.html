@@ -41,20 +41,19 @@
 
 
     <!-- Header Area Start -->
-     <div id="header"></div>
-
+   <div id="header"></div>
     <script>
-        fetch('partials/header.html')
-            .then(response => response.text())
-            .then(data => {
-                document.getElementById('header').innerHTML = data;
-            });
-    </script>
+    fetch('../partials/header.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById('header').innerHTML = data;
+        });
+</script>
     <!-- Header Area End -->
     <!-- Games Area Strat -->
    <div id="adventure-games"></div>
     <script>
-    fetch('partials/adventure-games.html')
+    fetch('../partials/adventure-games.html')
         .then(response => response.text())
         .then(data => {
             document.getElementById('adventure-games').innerHTML = data;
@@ -64,7 +63,7 @@
     <!-- Footer Area Start -->
     <div id="footer"></div>
     <script>
-    fetch('partials/footer.html')
+    fetch('../partials/footer.html')
         .then(response => response.text())
         .then(data => {
             document.getElementById('footer').innerHTML = data;
